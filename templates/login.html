@@ -2,9 +2,12 @@
 {% block body %}
 <div class="container">
     <form method="POST" action="">
-        <fieldset>
+        <fieldset class="form-group">
             <legend>Login</legend>
-            {{ form.username.label }}
+            <div class="form-group">
+                {{ form.username.label }}
+
+            </div>
         </fieldset>
     </form>
 </div>
